@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app: # Frontend
+    image: bloglist-frontend
+    container_name: bloglist-frontend
+    restart: always
+    build:
+      context: ./frontend-part5/
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:80
+  server: # Backend
+    image: bloglist-backend
+    container_name: bloglist-backend
+    restart: always
+    build:
+      context: ./backend-part4/
+      dockerfile: ./Dockerfile
+    ports:
+      - 3003:3003

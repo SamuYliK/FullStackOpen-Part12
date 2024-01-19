@@ -1,0 +1,9 @@
+todo-app/todo-backend/mongo_data
+todo-app/todo-backend/redis_data
+todo-app/todo-backend/node_modules
+todo-app/todo-frontend/node_modules
+todo-app/todo-frontend/.env
+
+my-app-bloglist/backend-part4/.env
+my-app-bloglist/backend-part4/node_modules
+my-app-bloglist/frontend-part5/node_modules
